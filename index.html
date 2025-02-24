@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Lista de Tarefas">
+        <meta name="keywords" content="programação,html,css,javascript,números,gerador">
+        <meta name="author" content="Amanda Castilho">
+        <link rel="stylesheet" href="style.css">
+        <title>Lista de Tarefas</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Lista de Tarefas</h2>
+            <button onclick="toggleDarkMode()">🌙 Alternar Tema</button>
+            <input type="text" id="taskInput" placeholder="Nova tarefa">
+            <button onclick="addTask()">Adicionar</button>
+            <div class="filters">
+                <button onclick="filterTasks('all')">Todas</button>
+                <button onclick="filterTasks('pending')">Pendentes</button>
+                <button onclick="filterTasks('done')">Concluídas</button>
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+
+        <script src="script.js"></script>
+    
+    </body>
