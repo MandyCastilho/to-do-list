@@ -1,65 +1,113 @@
 @charset "UTF-8";
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background: #f4f4f4;
-    transition: background 0.3s, color 0.3s;
+    background: #ffff84;
+    color: #333;
+    transition: background 0.3s ease, color 0.3s ease;
 }
+
 .dark-mode {
-    background: #333;
-    color: white;
+    background: #9d1833;
+    color: #fff;
 }
+
 .container {
-    max-width: 400px;
-    margin: 50px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease;
 }
+
 .dark-mode .container {
-    background: #444;
+    background: #7d142a;
 }
+
 input {
     width: 70%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12px;
+    border: 2px solid #e50d58;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
 }
+
+input:focus {
+    border-color: #aaffbd;
+}
+
 button {
-    padding: 10px;
+    padding: 10px 16px;
     margin: 5px;
-    background: #28a745;
+    background: #e50d58;
     color: white;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
-    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
+
+button:hover {
+    background: #9d1833;
+    transform: scale(1.05);
+}
+
 .dark-mode button {
-    background: #1c7430;
+    background: #aaffbd;
+    color: #333;
 }
+
 ul {
     list-style: none;
     padding: 0;
+    margin-top: 20px;
 }
+
 li {
-    background: #eee;
-    margin: 5px 0;
-    padding: 10px;
+    background: #aaffbd;
+    margin: 8px 0;
+    padding: 12px 16px;
     display: flex;
     justify-content: space-between;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
+    align-items: center;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-weight: 500;
 }
+
+li:hover {
+    background: #92eaa6;
+    transform: scale(1.02);
+}
+
 .dark-mode li {
-    background: #555;
+    background: #b03b5a;
+    color: white;
 }
+
 .done {
     text-decoration: line-through;
-    color: gray;
+    color: #666;
+    opacity: 0.7;
 }
+
+.filters {
+    margin-top: 15px;
+}
+
 .filters button {
-    background: #007bff;
+    background: #ffff84;
+    color: #333;
+    border: 2px solid #e50d58;
+}
+
+.filters button:hover {
+    background: #e50d58;
+    color: white;
 }
