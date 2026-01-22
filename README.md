@@ -110,7 +110,7 @@ As tarefas são armazenadas no navegador usando **`localStorage`**, permitindo q
 
 ---
 
-## 🧑‍💻 Autora
+## 👩🏼‍💻 Autora
 
 **Amanda Ramos Castilho**  
 🎓 Formada em Análise e Desenvolvimento de Sistemas  
