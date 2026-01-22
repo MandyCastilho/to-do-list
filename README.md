@@ -12,8 +12,6 @@ Projeto focado em **lógica de programação**, **manipulação do DOM**, **expe
 🌙 Suporte a temas claro e escuro  
 🔍 Filtros inteligentes para organização das tarefas  
 
-> 📌 *Adicione screenshots ou GIFs do projeto aqui para enriquecer o repositório.*
-
 ---
 
 ## 🚀 Funcionalidades
@@ -114,8 +112,8 @@ As tarefas são armazenadas no navegador usando **`localStorage`**, permitindo q
 
 ## 🧑‍💻 Autora
 
-**Amanda Castilho**  
-🎓 Estudante de Análise e Desenvolvimento de Sistemas  
+**Amanda Ramos Castilho**  
+🎓 Formada em Análise e Desenvolvimento de Sistemas  
 
 📌 Projeto desenvolvido para praticar:
 - JavaScript
